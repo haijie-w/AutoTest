@@ -1,0 +1,328 @@
+[2019-08-20 18:10:10,476] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:10,542] - loger.py] - INFO: 目前正在执行第1.0条用例
+[2019-08-20 18:10:10,543] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:10,571] - loger.py] - INFO: 请求参数 {"telephone":"13527231857",
+"scenario":"login"}
+[2019-08-20 18:10:10,572] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:10:10,765] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:10,813] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:10,846] - loger.py] - INFO: 目前正在执行第2.0条用例
+[2019-08-20 18:10:10,847] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:10,855] - loger.py] - INFO: 请求参数 {"telephone":"135272317",
+"scenario":"login"}
+[2019-08-20 18:10:10,856] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '请输入正确的手机号码'}
+[2019-08-20 18:10:11,046] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:11,047] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:11,089] - loger.py] - INFO: 目前正在执行第3.0条用例
+[2019-08-20 18:10:11,090] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:11,098] - loger.py] - INFO: 请求参数 {"telephone":"",
+"scenario":""}
+[2019-08-20 18:10:11,099] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '请输入正确的手机号码'}
+[2019-08-20 18:10:11,291] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:11,292] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:11,333] - loger.py] - INFO: 目前正在执行第4.0条用例
+[2019-08-20 18:10:11,334] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:11,342] - loger.py] - INFO: 请求参数 {"telephone":"null",
+"scenario":"null"}
+[2019-08-20 18:10:11,342] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '请输入正确的手机号码'}
+[2019-08-20 18:10:11,539] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:11,541] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:11,577] - loger.py] - INFO: 目前正在执行第5.0条用例
+[2019-08-20 18:10:11,578] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:11,586] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"scenario":""}
+[2019-08-20 18:10:11,587] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:10:11,763] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:11,764] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:11,797] - loger.py] - INFO: 目前正在执行第6.0条用例
+[2019-08-20 18:10:11,797] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:11,822] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"verifyCode":"12346"}
+[2019-08-20 18:10:11,822] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:10:11,998] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:11,999] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:12,041] - loger.py] - INFO: 目前正在执行第7.0条用例
+[2019-08-20 18:10:12,041] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:12,056] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"verifyCode":""}
+[2019-08-20 18:10:12,056] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:10:12,222] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:12,223] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:12,267] - loger.py] - INFO: 目前正在执行第8.0条用例
+[2019-08-20 18:10:12,268] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:12,282] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"verifyCode":"null"}
+[2019-08-20 18:10:12,282] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:10:12,452] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:12,453] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:12,484] - loger.py] - INFO: 目前正在执行第9.0条用例
+[2019-08-20 18:10:12,485] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:12,497] - loger.py] - INFO: 请求参数 {"telephone":"","verifyCode":""}
+[2019-08-20 18:10:12,497] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:10:12,677] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:12,679] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:12,728] - loger.py] - INFO: 目前正在执行第10.0条用例
+[2019-08-20 18:10:12,728] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:12,766] - loger.py] - INFO: 请求参数 {"telephone":"13527231857",
+"verifyCode":"123456"}
+[2019-08-20 18:10:12,767] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': {'token': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTA6MTNcIixcInRva2VuVHlwZVwiOlwiYWNjZXNzVG9rZW5cIn0iLCJuYmYiOjE1NjYyOTU4MTMsImlzcyI6Im9vbGEiLCJleHAiOjE1NjYyOTc2MTMsImlhdCI6MTU2NjI5NTgxMywianRpIjoiM2YxMjljMGYtMzkxYy00YjEyLWE4ZWYtNzRlMWI3ZjExMjZkIn0.dxcDnlf7mYsKVQ5tphIXjUrqSTcWgkWNaxxBPH_6Bg0', 'refreshToken': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTA6MTNcIixcInRva2VuVHlwZVwiOlwicmVmcmVzc1Rva2VuXCJ9IiwibmJmIjoxNTY2Mjk1ODEzLCJpc3MiOiJvb2xhIiwiZXhwIjoxNTY4ODg3ODEzLCJpYXQiOjE1NjYyOTU4MTMsImp0aSI6ImM4N2FkOWEzLTZmOTAtNDBhMC1iMzZmLTQ5YzY0ZWFmYTMxOCJ9.7--hzxIAiNlPaMoSXOdt_o4SqT3cBTaAdz43s23o1lE', 'expireIn': 1800000, 'refreshTokenExpireIn': 2592000000, 'isRegist': False, 'isBindWechat': None, 'isBindPhone': None, 'validationType': None, 'channelCode': None, 'appName': None}}
+[2019-08-20 18:10:12,984] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:12,986] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:13,037] - loger.py] - INFO: 目前正在执行第11.0条用例
+[2019-08-20 18:10:13,038] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:13,046] - loger.py] - INFO: 请求参数 {'refreshToken': '${refreshToken}'}
+[2019-08-20 18:10:13,046] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': {'token': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTA6MTNcIixcInRva2VuVHlwZVwiOlwiYWNjZXNzVG9rZW5cIn0iLCJuYmYiOjE1NjYyOTU4MTMsImlzcyI6Im9vbGEiLCJleHAiOjE1NjYyOTc2MTMsImlhdCI6MTU2NjI5NTgxMywianRpIjoiNTdmOGE3N2MtYWVjOS00YmU4LWIxNTEtOTAyYjAxZDE4MmM2In0.S-XFYkz8BY5gZGsgmBscrQlk5A2TmUp11uJQHPuDUNg', 'refreshToken': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTA6MTNcIixcInRva2VuVHlwZVwiOlwicmVmcmVzc1Rva2VuXCJ9IiwibmJmIjoxNTY2Mjk1ODEzLCJpc3MiOiJvb2xhIiwiZXhwIjoxNTY4ODg3ODEzLCJpYXQiOjE1NjYyOTU4MTMsImp0aSI6IjVhNGZlODU1LWM5N2QtNGQ4MS04NDNjLWM2MGVjZDk1NmViZSJ9.1UskDWNv63YJLrHK2px4bw-pYWLuAA1g4xw9WVJ3z2I', 'expireIn': 1800000, 'refreshTokenExpireIn': 2592000000, 'isRegist': False}}
+[2019-08-20 18:10:13,217] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:13,219] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:13,258] - loger.py] - INFO: 目前正在执行第12.0条用例
+[2019-08-20 18:10:13,259] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:13,266] - loger.py] - INFO: 请求参数 {'refreshToken': ''}
+[2019-08-20 18:10:13,267] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '444', 'msg': 'refreshToken不合法', 'info': None}
+[2019-08-20 18:10:13,440] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:13,441] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:13,490] - loger.py] - INFO: 目前正在执行第13.0条用例
+[2019-08-20 18:10:13,491] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:13,564] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:10:13,565] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': {'id': 16755668, 'credit': 0, 'avatar': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'avatarS': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'data': None, 'headImgUrl': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'username': '13527231857', 'nickname': 'aimee测试', 'telephone': '13527231857', 'bindWeixin': 0, 'bindQQ': 0, 'bindWeibo': 0, 'weixinNickname': None, 'weiboNickName': None, 'qqNickName': None, 'smallProgramData': None, 'socialAccountId': None, 'avatarUrl': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'birthday': None, 'gender': None}}
+[2019-08-20 18:10:13,761] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:13,762] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:13,816] - loger.py] - INFO: 目前正在执行第14.0条用例
+[2019-08-20 18:10:13,816] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:13,823] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:10:13,824] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:10:13,995] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:13,996] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:14,039] - loger.py] - INFO: 目前正在执行第15.0条用例
+[2019-08-20 18:10:14,039] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:14,280] - loger.py] - INFO: 请求参数 {'nickName': 'aimee测试'}
+[2019-08-20 18:10:14,281] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:10:14,458] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:14,460] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:14,502] - loger.py] - INFO: 目前正在执行第16.0条用例
+[2019-08-20 18:10:14,502] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:14,509] - loger.py] - INFO: 请求参数 {'nickName': 'aimee测试'}
+[2019-08-20 18:10:14,510] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:10:14,700] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:14,701] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:14,733] - loger.py] - INFO: 目前正在执行第17.0条用例
+[2019-08-20 18:10:14,733] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:14,746] - loger.py] - INFO: 请求参数 {'nickName': 'null'}
+[2019-08-20 18:10:14,747] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '修改用户昵称失败，请稍后重试'}
+[2019-08-20 18:10:14,917] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:14,918] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:14,947] - loger.py] - INFO: 目前正在执行第18.0条用例
+[2019-08-20 18:10:14,948] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:14,960] - loger.py] - INFO: 请求参数 {'nickName': ''}
+[2019-08-20 18:10:14,961] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '修改用户昵称失败，请稍后重试'}
+[2019-08-20 18:10:15,130] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:15,131] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:15,175] - loger.py] - INFO: 目前正在执行第19.0条用例
+[2019-08-20 18:10:15,175] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:15,189] - loger.py] - INFO: 请求参数 {'nickName': '546548454235234767%%6*//-*/*--*'}
+[2019-08-20 18:10:15,190] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '昵称不能大于20个字符，请重新输入'}
+[2019-08-20 18:10:15,367] - loger.py] - INFO: 测试结束
+[2019-08-20 18:10:15,368] - loger.py] - INFO: 测试开始
+[2019-08-20 18:10:15,412] - loger.py] - INFO: 目前正在执行第20.0条用例
+[2019-08-20 18:10:15,413] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:10:15,486] - loger.py] - INFO: 请求参数 {'avatar': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg'}
+[2019-08-20 18:10:15,487] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:14:12,060] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:12,121] - loger.py] - INFO: 目前正在执行第1.0条用例
+[2019-08-20 18:14:12,121] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:12,136] - loger.py] - INFO: 请求参数 {"telephone":"13527231857",
+"scenario":"login"}
+[2019-08-20 18:14:12,136] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:14:12,302] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:12,308] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:12,358] - loger.py] - INFO: 目前正在执行第2.0条用例
+[2019-08-20 18:14:12,359] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:12,366] - loger.py] - INFO: 请求参数 {"telephone":"135272317",
+"scenario":"login"}
+[2019-08-20 18:14:12,367] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '请输入正确的手机号码'}
+[2019-08-20 18:14:12,537] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:12,540] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:12,582] - loger.py] - INFO: 目前正在执行第3.0条用例
+[2019-08-20 18:14:12,583] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:12,590] - loger.py] - INFO: 请求参数 {"telephone":"",
+"scenario":""}
+[2019-08-20 18:14:12,591] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '请输入正确的手机号码'}
+[2019-08-20 18:14:12,757] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:12,759] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:12,800] - loger.py] - INFO: 目前正在执行第4.0条用例
+[2019-08-20 18:14:12,800] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:12,808] - loger.py] - INFO: 请求参数 {"telephone":"null",
+"scenario":"null"}
+[2019-08-20 18:14:12,808] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '请输入正确的手机号码'}
+[2019-08-20 18:14:12,973] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:12,975] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:13,025] - loger.py] - INFO: 目前正在执行第5.0条用例
+[2019-08-20 18:14:13,026] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:13,034] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"scenario":""}
+[2019-08-20 18:14:13,035] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:14:13,199] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:13,200] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:13,240] - loger.py] - INFO: 目前正在执行第6.0条用例
+[2019-08-20 18:14:13,241] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:13,272] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"verifyCode":"12346"}
+[2019-08-20 18:14:13,272] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:14:13,440] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:13,442] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:13,482] - loger.py] - INFO: 目前正在执行第7.0条用例
+[2019-08-20 18:14:13,483] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:13,495] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"verifyCode":""}
+[2019-08-20 18:14:13,496] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:14:13,675] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:13,676] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:13,726] - loger.py] - INFO: 目前正在执行第8.0条用例
+[2019-08-20 18:14:13,727] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:13,739] - loger.py] - INFO: 请求参数 {"telephone":"13626262626",
+"verifyCode":"null"}
+[2019-08-20 18:14:13,740] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:14:13,912] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:13,914] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:13,964] - loger.py] - INFO: 目前正在执行第9.0条用例
+[2019-08-20 18:14:13,964] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:13,983] - loger.py] - INFO: 请求参数 {"telephone":"","verifyCode":""}
+[2019-08-20 18:14:13,984] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '验证码已过期', 'info': None}
+[2019-08-20 18:14:14,151] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:14,153] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:14,196] - loger.py] - INFO: 目前正在执行第10.0条用例
+[2019-08-20 18:14:14,196] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:14,213] - loger.py] - INFO: 请求参数 {"telephone":"13527231857",
+"verifyCode":"123456"}
+[2019-08-20 18:14:14,214] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': {'token': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTQ6MTRcIixcInRva2VuVHlwZVwiOlwiYWNjZXNzVG9rZW5cIn0iLCJuYmYiOjE1NjYyOTYwNTQsImlzcyI6Im9vbGEiLCJleHAiOjE1NjYyOTc4NTQsImlhdCI6MTU2NjI5NjA1NCwianRpIjoiYjU3ZWY1OTUtMzUwNC00ZDE5LWIzMmEtN2U2ZmJlYjE0Yzc4In0.234DBnPbo25mq7GyiounqJJprsqe65siOytFw2lV-GI', 'refreshToken': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTQ6MTRcIixcInRva2VuVHlwZVwiOlwicmVmcmVzc1Rva2VuXCJ9IiwibmJmIjoxNTY2Mjk2MDU0LCJpc3MiOiJvb2xhIiwiZXhwIjoxNTY4ODg4MDU0LCJpYXQiOjE1NjYyOTYwNTQsImp0aSI6ImNlZmQ3MDBkLTkyNWUtNDFlMi05NGI1LTg4MzIyOGY5ZWRiNCJ9.BUniqi3onntVjCtmiPDZqrxEOz-w9Cvay8l6_tjMi3k', 'expireIn': 1800000, 'refreshTokenExpireIn': 2592000000, 'isRegist': False, 'isBindWechat': None, 'isBindPhone': None, 'validationType': None, 'channelCode': None, 'appName': None}}
+[2019-08-20 18:14:14,412] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:14,413] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:14,445] - loger.py] - INFO: 目前正在执行第11.0条用例
+[2019-08-20 18:14:14,446] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:14,455] - loger.py] - INFO: 请求参数 {'refreshToken': '${refreshToken}'}
+[2019-08-20 18:14:14,455] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': {'token': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTQ6MTRcIixcInRva2VuVHlwZVwiOlwiYWNjZXNzVG9rZW5cIn0iLCJuYmYiOjE1NjYyOTYwNTQsImlzcyI6Im9vbGEiLCJleHAiOjE1NjYyOTc4NTQsImlhdCI6MTU2NjI5NjA1NCwianRpIjoiZjM0N2MzOGMtZmUxMS00ZWE3LTljYTctM2QwZThkMjc3NWJkIn0.VDxvyd5OjOtbn59Tt2zYK12bN09NgVg-tFc5Ij0JqWs', 'refreshToken': 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJpZFwiOjE2NzU1NjY4LFwidXNlcm5hbWVcIjpcIjEzNTI3MjMxODU3XCIsXCJjaGFubmVsXCI6MSxcImNsaWVudE9yTWFuYWdlXCI6MCxcImNyZWF0ZURhdGVcIjpcIjIwMTktMDgtMjAgMTg6MTQ6MTRcIixcInRva2VuVHlwZVwiOlwicmVmcmVzc1Rva2VuXCJ9IiwibmJmIjoxNTY2Mjk2MDU0LCJpc3MiOiJvb2xhIiwiZXhwIjoxNTY4ODg4MDU0LCJpYXQiOjE1NjYyOTYwNTQsImp0aSI6ImM1NzE2ZWYyLTJjNzctNGRhYy1hMmI3LWViYjZjOWQ1YjUxYiJ9.6xt-c8-1-4PdnqOerb_M_6W0_SBn-afpesE6IvpaBdM', 'expireIn': 1800000, 'refreshTokenExpireIn': 2592000000, 'isRegist': False}}
+[2019-08-20 18:14:14,657] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:14,659] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:14,700] - loger.py] - INFO: 目前正在执行第12.0条用例
+[2019-08-20 18:14:14,701] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:14,708] - loger.py] - INFO: 请求参数 {'refreshToken': ''}
+[2019-08-20 18:14:14,709] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '444', 'msg': 'refreshToken不合法', 'info': None}
+[2019-08-20 18:14:14,883] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:14,884] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:14,934] - loger.py] - INFO: 目前正在执行第13.0条用例
+[2019-08-20 18:14:14,934] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:14,965] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:14:14,966] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': {'id': 16755668, 'credit': 0, 'avatar': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'avatarS': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'data': None, 'headImgUrl': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'username': '13527231857', 'nickname': 'aimee测试', 'telephone': '13527231857', 'bindWeixin': 0, 'bindQQ': 0, 'bindWeibo': 0, 'weixinNickname': None, 'weiboNickName': None, 'qqNickName': None, 'smallProgramData': None, 'socialAccountId': None, 'avatarUrl': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg', 'birthday': None, 'gender': None}}
+[2019-08-20 18:14:15,157] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:15,158] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:15,200] - loger.py] - INFO: 目前正在执行第14.0条用例
+[2019-08-20 18:14:15,200] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:15,206] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:14:15,206] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:14:15,374] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:15,376] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:15,419] - loger.py] - INFO: 目前正在执行第15.0条用例
+[2019-08-20 18:14:15,419] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:15,607] - loger.py] - INFO: 请求参数 {'nickName': 'aimee测试'}
+[2019-08-20 18:14:15,607] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:14:15,783] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:15,786] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:15,827] - loger.py] - INFO: 目前正在执行第16.0条用例
+[2019-08-20 18:14:15,827] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:15,834] - loger.py] - INFO: 请求参数 {'nickName': 'aimee测试'}
+[2019-08-20 18:14:15,834] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:14:16,001] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:16,003] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:16,042] - loger.py] - INFO: 目前正在执行第17.0条用例
+[2019-08-20 18:14:16,043] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:16,055] - loger.py] - INFO: 请求参数 {'nickName': 'null'}
+[2019-08-20 18:14:16,055] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '修改用户昵称失败，请稍后重试'}
+[2019-08-20 18:14:16,226] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:16,232] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:16,282] - loger.py] - INFO: 目前正在执行第18.0条用例
+[2019-08-20 18:14:16,282] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:16,293] - loger.py] - INFO: 请求参数 {'nickName': ''}
+[2019-08-20 18:14:16,294] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '修改用户昵称失败，请稍后重试'}
+[2019-08-20 18:14:16,459] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:16,467] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:16,507] - loger.py] - INFO: 目前正在执行第19.0条用例
+[2019-08-20 18:14:16,508] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:16,518] - loger.py] - INFO: 请求参数 {'nickName': '546548454235234767%%6*//-*/*--*'}
+[2019-08-20 18:14:16,519] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '501', 'msg': '昵称不能大于20个字符，请重新输入'}
+[2019-08-20 18:14:16,689] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:16,692] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:16,726] - loger.py] - INFO: 目前正在执行第20.0条用例
+[2019-08-20 18:14:16,726] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:16,782] - loger.py] - INFO: 请求参数 {'avatar': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg'}
+[2019-08-20 18:14:16,782] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None}
+[2019-08-20 18:14:16,958] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:16,963] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:17,006] - loger.py] - INFO: 目前正在执行第21.0条用例
+[2019-08-20 18:14:17,006] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:17,013] - loger.py] - INFO: 请求参数 {'avatar': 'https://images-w.oola.cn/oola-web/imgs/20190322/201903221014185012l1.jpg'}
+[2019-08-20 18:14:17,013] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:14:17,200] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:17,203] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:17,250] - loger.py] - INFO: 目前正在执行第22.0条用例
+[2019-08-20 18:14:17,250] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:17,260] - loger.py] - INFO: 请求参数 {'avatar': 'null'}
+[2019-08-20 18:14:17,261] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '500', 'msg': '无效的图片url'}
+[2019-08-20 18:14:17,469] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:17,471] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:17,513] - loger.py] - INFO: 目前正在执行第23.0条用例
+[2019-08-20 18:14:17,514] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:17,524] - loger.py] - INFO: 请求参数 {'avatar': '   '}
+[2019-08-20 18:14:17,525] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '500', 'msg': '无效的图片url'}
+[2019-08-20 18:14:17,708] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:17,713] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:17,753] - loger.py] - INFO: 目前正在执行第24.0条用例
+[2019-08-20 18:14:17,753] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:17,764] - loger.py] - INFO: 请求参数 {'avatar': '""'}
+[2019-08-20 18:14:17,764] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '500', 'msg': '无效的图片url'}
+[2019-08-20 18:14:17,933] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:17,935] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:17,975] - loger.py] - INFO: 目前正在执行第25.0条用例
+[2019-08-20 18:14:17,975] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:17,985] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:14:17,985] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': 0}
+[2019-08-20 18:14:18,152] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:18,154] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:18,194] - loger.py] - INFO: 目前正在执行第26.0条用例
+[2019-08-20 18:14:18,194] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:18,200] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:14:18,200] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:14:18,369] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:18,372] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:18,422] - loger.py] - INFO: 目前正在执行第27.0条用例
+[2019-08-20 18:14:18,422] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:18,433] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:14:18,434] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': [{'id': 2, 'name': '消息通知', 'icon': 'https://images-w.oola.cn/oola-oss/imgs/20180126/20180126160020783HHi.png', 'sort': 2, 'unReadNum': 0, 'theLastMsg': None}]}
+[2019-08-20 18:14:18,608] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:18,610] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:18,642] - loger.py] - INFO: 目前正在执行第28.0条用例
+[2019-08-20 18:14:18,643] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:18,648] - loger.py] - INFO: 请求参数 
+[2019-08-20 18:14:18,649] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:14:18,817] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:18,819] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:18,850] - loger.py] - INFO: 目前正在执行第29.0条用例
+[2019-08-20 18:14:18,851] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:18,864] - loger.py] - INFO: 请求参数 {'categoryId': '2'}
+[2019-08-20 18:14:18,865] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': []}
+[2019-08-20 18:14:19,029] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:19,031] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:19,061] - loger.py] - INFO: 目前正在执行第30.0条用例
+[2019-08-20 18:14:19,061] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:19,067] - loger.py] - INFO: 请求参数 {'categoryId': '2'}
+[2019-08-20 18:14:19,068] - loger.py] - INFO: 返回响应 {'status': 'false', 'code': '4010', 'msg': 'token不能为空'}
+[2019-08-20 18:14:19,234] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:19,237] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:19,277] - loger.py] - INFO: 目前正在执行第31.0条用例
+[2019-08-20 18:14:19,278] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:19,290] - loger.py] - INFO: 请求参数 {'categoryId': 'null'}
+[2019-08-20 18:14:19,290] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': []}
+[2019-08-20 18:14:19,460] - loger.py] - INFO: 测试结束
+[2019-08-20 18:14:19,465] - loger.py] - INFO: 测试开始
+[2019-08-20 18:14:19,517] - loger.py] - INFO: 目前正在执行第32.0条用例
+[2019-08-20 18:14:19,517] - loger.py] - INFO: 请求方式：Post
+[2019-08-20 18:14:19,540] - loger.py] - INFO: 请求参数 {'categoryId': ''}
+[2019-08-20 18:14:19,540] - loger.py] - INFO: 返回响应 {'status': 'true', 'code': '200', 'msg': None, 'info': []}
